@@ -16,7 +16,7 @@ while(1):
     '''frame1 is camera read image '''
     ret, frame1=cap.read()
 
-    '''frame is flipped because the frame image is ulta(Hindi hai hehe) '''
+    '''frame is flipped because the frame image is flipped '''
     frame=fp.flip(frame1)
     cv2.imshow('Camera',frame)
 
