@@ -44,6 +44,8 @@ def ylen(a):
     :param a:  it is the masked image for the specific color (in this case mask)
     :return: the weighted x length of all the contours
     '''
+    
+    #thinking of checking number of returns done by findContours method().
     contours, _ = cv2.findContours(bimg(a), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     i = 0
     cy = 0
