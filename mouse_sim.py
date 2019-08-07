@@ -23,7 +23,7 @@ while(1):
 
     '''converting the frame to hsv because masking should be done on hsv images '''
     hsv=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
-    #cv2.imshow('original', hsv)
+    cv2.imshow('original', hsv)
 
 
     '''Finally masking the hsv image obatained with lower and upper inbounds for red color(My marker was red color)
