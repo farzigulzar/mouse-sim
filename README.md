@@ -1,4 +1,4 @@
-# mouse-sim
+# Mouse Mover 
 
 Requirements: 
 #mouse dependency
